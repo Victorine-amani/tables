@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    color: #FF9800;
+    background-color: #202329;
+    width: 70%;
+    margin: auto;
+    margin-top: 11%;
+    border-radius: 20px;
+}
+
+td,
+th {
+    background: linear-gradient(top, rgb(145, 140, 145) 0%, #2A3035 100%);
+    background: -webkit-linear-gradient(top, rgb(163, 155, 163) 0%, #2A3035 100%);
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #2A3035;
+}
